@@ -5,7 +5,6 @@ author        = "byteface"
 description   = "A Nim DOM"
 license       = "MIT"
 srcDir        = "src"
-bin = @["nom"]
 
 # Dependencies
 
