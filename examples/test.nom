@@ -1,0 +1,16 @@
+proc `div`(body: string): string =
+  "<div>\n" &
+    "  " & body & "\n" &
+  "</div>"
+
+echo `div`("test")
+
+echo "test".div
+
+#echo div("test")
+
+
+
+
+#proc `div`(a, b: string) = echo a
+#"hello" div "world"
